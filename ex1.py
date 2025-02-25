@@ -27,7 +27,7 @@ dec_25 = 31*11 + 25
 t_dec_25 = p3(dec_25)
 print(f"Temperature on Dec 25: {t_dec_25:.2f} °F")
 
-def find_days(polynomial, target_temp, start_day=1, end_day=366, step=0.1):
+def find_days(polynomial, target_temp, start_day=1, end_day=372, step=0.1):
     
     target_tempdays = []
     
